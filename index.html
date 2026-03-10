@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tech Solutions</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container nav">
+
+<h1 class="logo">Tech Solutions</h1>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#pricing">Pricing</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<button onclick="toggleDarkMode()">🌙</button>
+
+</div>
+
+</header>
+
+
+
+<section id="home" class="hero">
+
+<div class="hero-content">
+
+<h2>Build Your Digital Presence</h2>
+
+<p>Websites, Data Platforms & Technology Solutions</p>
+
+<button onclick="scrollContact()">Start Project</button>
+
+</div>
+
+</section>
+
+
+
+<section id="services" class="services container">
+
+<h2>Our Services</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+
+<h3>Website Development</h3>
+
+<p>Modern responsive websites for businesses.</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71">
+
+<h3>Data Analytics</h3>
+
+<p>Business insights with analytics dashboards.</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f">
+
+<h3>Database Systems</h3>
+
+<p>Scalable database architecture.</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="portfolio" class="portfolio container">
+
+<h2>Projects</h2>
+
+<div class="grid">
+
+<div class="project">
+
+<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f">
+
+<p>Startup Landing Page</p>
+
+</div>
+
+<div class="project">
+
+<img src="https://images.unsplash.com/photo-1556155092-490a1ba16284">
+
+<p>Restaurant Website</p>
+
+</div>
+
+<div class="project">
+
+<img src="https://images.unsplash.com/photo-1555421689-491a97ff2040">
+
+<p>Analytics Dashboard</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="pricing" class="pricing container">
+
+<h2>Pricing</h2>
+
+<div class="grid">
+
+<div class="price-card">
+
+<h3>Basic</h3>
+
+<p class="price">₹10,000</p>
+
+<ul>
+<li>Business website</li>
+<li>3 pages</li>
+<li>Mobile responsive</li>
+</ul>
+
+<button>Choose Plan</button>
+
+</div>
+
+
+
+<div class="price-card">
+
+<h3>Professional</h3>
+
+<p class="price">₹25,000</p>
+
+<ul>
+<li>Full website</li>
+<li>SEO optimized</li>
+<li>Analytics setup</li>
+</ul>
+
+<button>Choose Plan</button>
+
+</div>
+
+
+
+<div class="price-card">
+
+<h3>Premium</h3>
+
+<p class="price">₹50,000</p>
+
+<ul>
+<li>Custom development</li>
+<li>Admin dashboard</li>
+<li>Support</li>
+</ul>
+
+<button>Choose Plan</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="about" class="about">
+
+<div class="container">
+
+<h2>About Us</h2>
+
+<p>
+
+We create modern websites and data systems that help businesses grow.
+Our team focuses on design, technology, and analytics solutions.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<section id="contact" class="contact container">
+
+<h2>Contact</h2>
+
+<form onsubmit="return validateForm()">
+
+<input type="text" id="name" placeholder="Your Name">
+
+<input type="email" id="email" placeholder="Email">
+
+<textarea id="message" placeholder="Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+
+
+<footer>
+
+<p>© 2026 Tech Solutions</p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
